@@ -2,6 +2,7 @@
 <Hotels>
     <Hotel>
         <Name>Westin</Name>
+        <Street>11 E 7th St</Street>
         <Phone>480-968-8885</Phone>
         <Phone>800-937-8461</Phone>
         <Address>
@@ -14,5 +15,137 @@
         </Address>
         <Rating>4.2</Rating>
     </Hotel>
-    <!-- Add more hotel entries as needed -->
+
+    <Hotel>
+        <Name>Marriott</Name>
+        <Street>150 W 1st St</Street>
+        <Phone>480-123-4567</Phone>
+        <Phone>800-555-1234</Phone>
+        <Address>
+            <Number>150</Number>
+            <Street>W 1st St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85282</Zip>
+            <NearestAirport>Sky Harbor</NearestAirport>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>Hilton Garden Inn</Name>
+        <Street>50 S 3rd St</Street>
+        <Phone>480-987-6543</Phone>
+        <Phone>800-678-1234</Phone>
+        <Address>
+            <Number>50</Number>
+            <Street>S 3rd St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85283</Zip>
+            <NearestAirport>Sky Harbor</NearestAirport>
+        </Address>
+        <Rating>3.8</Rating>
+    </Hotel>
+
+    <Hotel>
+        <Name>Holiday Inn</Name>
+        <Street>1000 N 2nd St</Street>
+        <Phone>480-555-7890</Phone>
+        <Address>
+            <Number>1000</Number>
+            <Street>N 2nd St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85284</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>Ramada</Name>
+        <Street>200 W 7th St</Street>
+        <Phone>480-777-8888</Phone>
+        <Address>
+            <Number>200</Number>
+            <Street>W 7th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85285</Zip>
+            <NearestAirport>Sky Harbor</NearestAirport>
+        </Address>
+        <Rating>4.0</Rating>
+    </Hotel>
+
+    <Hotel>
+        <Name>Best Western</Name>
+        <Street>300 E 5th St</Street>
+        <Phone>480-123-7890</Phone>
+        <Phone>800-444-5555</Phone>
+        <Address>
+            <Number>300</Number>
+            <Street>E 5th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85286</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>Sheraton</Name>
+        <Street>500 S 10th St</Street>
+        <Phone>480-222-3333</Phone>
+        <Address>
+            <Number>500</Number>
+            <Street>S 10th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85287</Zip>
+            <NearestAirport>Sky Harbor</NearestAirport>
+        </Address>
+        <Rating>4.5</Rating>
+    </Hotel>
+
+    <Hotel>
+        <Name>Courtyard</Name>
+        <Street>800 N 4th St</Street>
+        <Phone>480-444-5555</Phone>
+        <Phone>800-555-7890</Phone>
+        <Address>
+            <Number>800</Number>
+            <Street>N 4th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85288</Zip>
+            <NearestAirport>Sky Harbor</NearestAirport>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>La Quinta</Name>
+        <Street>900 W 6th St</Street>
+        <Phone>480-111-2222</Phone>
+        <Phone>800-222-3333</Phone>
+        <Address>
+            <Number>900</Number>
+            <Street>W 6th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85289</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>DoubleTree</Name>
+        <Street>1200 E 8th St</Street>
+        <Phone>480-555-1234</Phone>
+        <Phone>800-987-6543</Phone>
+        <Address>
+            <Number>1200</Number>
+            <Street>E 8th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85290</Zip>
+            <NearestAirport>Sky Harbor</NearestAirport>
+        </Address>
+        <Rating>4.3</Rating>
+    </Hotel>
 </Hotels>
