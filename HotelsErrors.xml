@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <!-- Error 1: Root element name is Hotel instead of Hotels -->
+  <Hotel requiredAttribute="1234" optionalAttribute="Free WiFi">
+    <Name>Grand Hotel</Name>
+    <Address>
+      <Street>1234 Main St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+    <Phone>800-555-1234</Phone>
+    <Phone>480-555-5678</Phone>
+    <Rating>4</Rating>
+    <NearstAirport>Sky Harbor</NearstAirport>
+  </Hotel>
+
+  <!-- Error 2: Missing required attribute for one hotel -->
+  <Hotel>
+    <Name>Seaside Resort</Name>
+    <Address>
+      <Street>5678 Ocean Blvd</Street>
+      <City>San Diego</City>
+      <State>CA</State>
+      <Zip>92101</Zip>
+    </Address>
+    <Phone>800-555-2345</Phone>
+    <Rating>5</Rating>
+    <NearstAirport>San Diego International</NearstAirport>
+  </Hotel>
+
+  <!-- Error 3: Missing Phone element -->
+  <Hotel requiredAttribute="5678">
+    <Name>Mountain View Inn</Name>
+    <Address>
+      <Street>789 Mountain Rd</Street>
+      <City>Flagstaff</City>
+      <State>AZ</State>
+      <Zip>86001</Zip>
+    </Address>
+    <Rating>3</Rating>
+    <NearstAirport>Flagstaff Airport</NearstAirport>
+  </Hotel>
+
+  <!-- Error 4: Missing closing tag for Address -->
+  <Hotel requiredAttribute="9999">
+    <Name>Sunset Motel</Name>
+    <Address>
+      <Street>111 Sunset Ave</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <!-- Missing closing tag for Address here -->
+    </Address>
+    <Phone>800-555-6789</Phone>
+    <Rating>3</Rating>
+    <NearstAirport>Phoenix Sky Harbor</NearstAirport>
+  </Hotel>
+
+  <!-- Error 5: Two Name elements -->
+  <Hotel requiredAttribute="4321">
+    <Name>Luxury Palace</Name>
+    <Name>Grand Luxury Palace</Name> <!-- Error: Two Name elements -->
+    <Address>
+      <Street>4321 Luxury St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85001</Zip>
+    </Address>
+    <Phone>800-555-9876</Phone>
+    <Rating>5</Rating>
+    <NearstAirport>Phoenix Sky Harbor</NearstAirport>
+  </Hotel>
+
+</Hotel>

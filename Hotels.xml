@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <Hotel requiredAttribute="1234" optionalAttribute="Free WiFi">
+    <Name>Grand Hotel</Name>
+    <Address>
+      <Street>1234 Main St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+    <Phone>800-555-1234</Phone>
+    <Phone>480-555-5678</Phone>
+    <Rating>4</Rating>
+    <NearstAirport>Sky Harbor</NearstAirport>
+  </Hotel>
+
+  <Hotel requiredAttribute="5678">
+    <Name>Seaside Resort</Name>
+    <Address>
+      <Street>5678 Ocean Blvd</Street>
+      <City>San Diego</City>
+      <State>CA</State>
+      <Zip>92101</Zip>
+    </Address>
+    <Phone>800-555-2345</Phone>
+    <Rating>5</Rating>
+    <NearstAirport>San Diego International</NearstAirport>
+  </Hotel>
+
+  <!-- Add more hotels here (at least 8 more) -->
+
+</Hotels>
